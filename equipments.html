@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Theviniwise</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/310daf2e41.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Sacramento&family=Tilt+Warp&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<section>
+		<div class="dslr-details">
+			<div class="details">
+				<h1>EQUIPMENT DETAILS</h1>
+				<h2>Canon EOS 1500D / Canon Rebel T7</h2>
+				<div class="sub-details"><ul>
+					<li class="lead"><i class = "fas fa-dot-circle"></i> <strong>IMAGE QUALITY:</strong>  The camera features a 24.1-megapixel APS-C CMOS sensor, which captures high-resolution images with excellent detail and clarity. It also offers a wide ISO range of 100-6400 (expandable to 12800), allowing for good performance in various lighting conditions.</li>
+					<li class="lead"><i class = "fas fa-dot-circle"></i> <strong>LENSE COMPATIBILITY:</strong> The Canon 1500D uses the Canon EF/EF-S lens mount, providing a wide range of lens options to suit different photography styles and subjects. Such as variety of lenses, including wide-angle, telephoto, macro, and more, to enhance your creative possibilities.</li>
+					<li class="lead"><i class = "fas fa-dot-circle"></i> <strong>SHOOTING PERFORMACE:</strong> This camera offers a continuous shooting speed of up to 3 frames per second, allowing you to capture fast-moving subjects with ease. It also supports Full HD 1080p video recording at 30 frames per second, enabling you to capture high-quality videos as well.</li>
+					<li class="lead"><i class = "fas fa-dot-circle"></i> <strong>USER-FRIENDLY FEATURES:</strong> The Canon 1500D includes a 3.0-inch LCD screen for easy menu navigation and image review. It has built-in Wi-Fi and NFC connectivity, enabling you to transfer images wirelessly to compatible devices or remotely control the camera using a smartphone.</li>
+					<li class="lead"><i class = "fas fa-dot-circle"></i> <strong>CREATIVE MODES AND FILTERS:</strong> The camera provides various creative shooting modes, such as Portrait, Landscape, Sports, and more, to help you achieve the desired look for your photographs. Additionally, it offers creative filters like Toy Camera, Miniature Effect, and Fish-eye Effect to add unique artistic touches to your images.</li>
+				</ul></div>
+			</div>
+			<div class="dslrimg"><img src="equips1.png"></div>
+		</div>
+	</section>
+	<style type="text/css">
+	
+	:root{
+	--transition: all 300ms ease-in-out;
+	--dark-color: #321E1E;
+	--light-color: white;
+	}
+	*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	}
+	html{
+	font-size: 10px;
+	scroll-behavior: smooth;
+	}
+	body{
+	font-size: 1.6rem;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.6;
+	}
+	.dslr-details{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0px;
+		margin: 0px;
+		top: 0px;
+		left: 0px;
+		height: 100vh;
+		width: 100%;
+		/*background-color: yellow;*/
+	}
+	.dslr-details .details{
+		position: relative;
+		height: 700px;
+		width: 700px;
+		/*background-color: red;*/
+		z-index: 1;
+		top: 30px;
+		left: -275px;
+	}
+	.details h1{
+		color: white;
+		font-size: 50px;
+	}
+	.details h2{
+		color: white;
+		font-size: 30px;
+	}
+	.sub-details li{
+		list-style: none;
+	}
+	.sub-details ul li{
+		color: white;
+		line-height: 50px;
+	}
+	.dslr-details .dslrimg{
+	position: fixed;
+	top: 0px;
+	min-height: 100vh;
+	width: 100vw;
+	object-position: top;
+	/*z-index: -1;*/
+	display: flex;
+		
+	}
+	.dslrimg {
+		filter: brightness(70%);
+	}
+	</style>
+</body>
